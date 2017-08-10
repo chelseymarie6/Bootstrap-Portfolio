@@ -1,0 +1,218 @@
+ /*****************************
+            640 PX
+******************************/
+@media screen and (max-width: 640px) {
+
+ /*****************************
+HEADER
+******************************/
+  
+  #masthead {
+    font-size: 1.25em;
+    margin-top: -5%;
+    text-align: center;
+  }
+  
+  #logo {
+    width: 100%;
+  
+  }
+  
+  nav {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  
+  nav a {
+    width: 30%;
+  }
+
+ /*****************************
+MAIN
+******************************/
+  .wrapper {
+    margin: auto;
+    width: 100%;
+  }
+
+
+/*   .main-section {
+  margin: auto 5%;
+  width: 100%;
+
+} */
+
+  .profile-photo {
+    width: 100%;
+  }
+
+ /*****************************
+SIDEBAR
+******************************/
+/*   .sidebar {
+  margin: auto 5%;
+  width: 100%;
+} */
+
+  #connect {
+    
+   
+
+  }
+
+ /*****************************
+FOOTER
+******************************/
+/*   footer {
+  max-width: 100%;
+} */
+
+}
+
+ /*****************************
+            768 PX
+******************************/
+@media screen and (max-width: 768px) {
+
+/* Navigation will stay the same pre-responsive css. 
+Main container and sidebar will stack on top of each other */
+
+.container {
+  max-width: 100%;
+}
+
+ /*****************************
+HEADER
+******************************/
+  
+  #masthead {
+    font-size: 1.25em;
+    margin-top: -5%;
+    text-align: center;
+  }
+  
+  #logo {
+    max-width: 100%;
+  }
+  
+  nav {
+    margin-top: 10% auto;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin: auto;
+  } 
+
+ /*****************************
+MAIN
+******************************/
+  .wrapper {
+    clear: both;
+    display: block;
+    max-width: 100%;
+  }
+
+  #main-container {
+    margin: 5%;
+   
+  }
+
+ /*****************************
+SIDEBAR
+******************************/
+  .sidebar {
+    float: left;
+  }
+
+  #connect {
+    margin: 5%;
+    width: 100%;
+  }
+
+ /*****************************
+FOOTER
+******************************/
+  footer {
+    max-width: 100%;
+  }
+}
+
+ /*****************************
+            980 PX
+******************************/
+@media screen and (max-width: 980px) {
+
+.container {
+  max-width: 100%;
+}
+
+ /*****************************
+HEADER
+******************************/
+  
+  #masthead {
+    font-size: 1.25em;
+    margin-top: -5%;
+    text-align: center;
+  }
+  
+  #logo {
+    max-width: 100%;
+  
+  }
+  
+  nav {
+    margin-top: 10% auto;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin: auto;
+  } 
+
+ /*****************************
+MAIN
+******************************/
+  .wrapper {
+    clear: both;
+    display: block;
+    max-width: 100%;
+  }
+
+
+  #main-container {
+    display: block;
+    margin: 5%;
+   
+  }
+
+  .work img {
+   
+  }
+
+ /*****************************
+SIDEBAR
+******************************/
+  .sidebar {
+  
+  }
+
+  #connect {
+    margin: 5%;
+    width: 100%;
+  }
+
+ /*****************************
+FOOTER
+******************************/
+  footer {
+    max-width: 100%;
+  }
+
+}
