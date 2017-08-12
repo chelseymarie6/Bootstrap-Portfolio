@@ -7,7 +7,7 @@ GENERAL
 }
 
 body {
-  background: url('../img/diamond_upholstery.png');
+  background: url('../img/stardust.png');
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 34px;
@@ -56,8 +56,9 @@ h3 {
 }
 
 .img-responsive {
-  width: ;
-}
+  width: 50%;
+  text-overflow: none;
+} 
 
 /************
 HEADING
@@ -78,7 +79,22 @@ HEADING
   background: #4aaaa5;
 }
 
+.nav-pills {
+  margin: 2% auto;
 
+}
+
+@keyframes example {
+  from {background-color: #173534;}
+  to {background-color: #a6d8d6;}
+}
+
+#logo {
+  background-color: #a6d8d6;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
 
 /************
 FOOTER
@@ -93,26 +109,35 @@ footer {
   font-size: 12px;
   padding: 30px 0;
   text-align: center;
+  position: static;
 }
+ 
+ .footer {
+  position: static;
+ }
+
 
 
 /************
 ABOUT
 ************/
 
-#profile-photo {
+ #profile-photo {
   border-radius: 20px;
-  /* display: block; */
+  display: block;
   float: left;
-  /* height: auto; */
+  height: auto;
   margin: 10px 25px 0 0;
-  /* width: 90%; was 40% */
   text-overflow: wrap;
 }
+
+
+
 
 p {
   margin: auto;
   padding: 25px;
+  
 }
 
 /**********
@@ -127,7 +152,43 @@ CONTACT
   border: 0 none;
 }
 
+@keyframes submit {
+  from {background-color: #173534;}
+  to {background-color: #a6d8d6;}
+}
 
+ [type=submit] {
+  background-color: #a6d8d6;
+  animation-name: submit;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.form-group,
+.form-horizontal,
+.well_well-sm {
+  background: #fff;
+}
+
+.form-horizontal, 
+.form-group {
+  margin: auto;
+  padding: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.well_well-sm {
+  margin: auto;
+}
+
+.well {
+  background-color: #fff;
+  border: none;
+}
 
 /************
 CONNECT
@@ -175,32 +236,3 @@ PORTFOLIO
   border-bottom: 0;
 }
 
-
-/* Extra small devices (phones, less than
-768px) No media query since this is the
-default in Bootstrap */
-
-/* small (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { 
-    
-/*     
-
-
-  
-.nav_navbar-nav_navbar-right_nav-pills {
-  width: 100%;
-}
-
-.profile-photo {
-  width: 100%;
-} */
-}
-/* medium (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { 
-
-
-}
-/* large (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { 
-
-}
